@@ -96,8 +96,7 @@ function mouseReleased(){
     if(settingsMenu){
       settingsMenu = false;
     }else{
-      let fs = fullscreen();
-      fullscreen(!fs);
+      window.open("https://editor.p5js.org/RoaringGamez/full/nqcqwCHOX", '_blank');
     }
     
     
